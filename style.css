@@ -1,0 +1,360 @@
+
+.header3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+#header{
+  text-align:center;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  line-height: 2.8;
+  cursor: pointer;
+}
+#header a{
+  text-align:center;
+  padding: 0px 37px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: "Apple Icons 500", sans-serif;
+  cursor: pointer;
+}
+
+#header:hover{
+background-image:linear-gradient(to right,rgba(255,0,0,0.7),rgba(98,52,140,0.7));
+}
+
+#header a img{
+  position: relative;
+  top: 5px;
+  opacity: 0.8;
+  border-radius: 30%;
+  cursor: pointer;
+}
+.header2 a{
+text-decoration: none;
+color:#4e94db;
+
+}
+
+.header3 {
+  letter-spacing: 0px;
+  text-transform: none;
+  font: 50px "Apple Icons 500", sans-serif;
+  color: #111;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+body {
+  min-height: 300%;
+  width: 100%;
+  font-family: "Apple Icons 500", sans-serif;
+  font-size: 22px;
+  line-spacing: 44px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
+/*video heading*/
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 80px;
+}
+h2 {
+  display: block;
+  font: "Apple Icons 500", sans-serif;
+  font-size: 30px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.p1 {
+  display: block;
+  font: "Apple Icons 500", sans-serif;
+  font-size: 16px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0070c9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+p {
+  display: contents;
+  font-size: 30px;
+  font: "Apple Icons 500", sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+}
+.bgimg-1 {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://wallpaperaccess.com/full/12569.jpg");
+  opacity: 0.65;
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("wwdc23-visionpro-blogroll-1685990973596.jpg");
+  opacity: 1;
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  font-family: "Apple Icons 500", sans-serif;
+  font-size: 45px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+footer {
+  background-color: #f2f2f2;
+  font-family: calibri;
+  padding: 0 22px;
+  padding-bottom: 21px;
+  overflow: hidden;
+}
+
+.footer-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  padding-top: 21px;
+  overflow: hidden;
+}
+
+.footer-col {
+  width: 20%;
+  float: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+/*footer header*/
+h3 {
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    background: #f6f4f4;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.product-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.product-list li {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.product-list a {
+  color: #555;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.product-list a:hover {
+  color: #333;
+}
+
+input[type="checkbox"]:checked+.col-section .product-list {
+    transition: transform 300ms ease;
+    visibility: visible;
+    position: static;
+    transform: none;
+}
+
+input[type="checkbox"]:checked+.col-section h3::after {
+    transform: rotate(45deg) scale(1.08);
+}
+
+.footer-base {
+  padding-top: 34px;
+  padding-bottom: 21px;
+  color: #888;
+  font-size: 12px; 
+}
+
+.footer-more-ways {
+  margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 767px) {
+  
+  footer {
+    padding: 0 16px;
+    padding-bottom: 21px;
+  }
+  
+  .footer-col {
+    width: 100%;
+  }
+  
+  .item {
+    border-bottom: 1px solid #d6d6d6;
+  }
+  
+  h3 {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  h3::after {
+    content: '+';
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: 8px;
+    transition: transform .3s ease
+  }
+  
+  .product-list {
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(-100px);
+    z-index: 1;
+    padding: 5px 0 16px 0;
+  }
+  
+  .product-list li {
+    margin: 0;
+  }
+  
+  .product-list a {
+    display: block;
+    padding: 6px 14px;
+  }
+  
+  .footer-col {
+    overflow: hidden;
+  }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (min-width: 767px) {
+  .item-padding-top {
+    padding-top: 24px;
+  }
+}
+
+.footer-legal-copyright {
+    margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+}
+
+.footer-legal-links {
+  float: left;
+}
+
+.footer-legal-links a {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+  display: inline-block;
+  margin-top: 3px;
+  white-space: nowrap;
+  color: #555;
+}
+
+.footer-legal-links a:last-child {
+  border-right: none;
+}
+
+.footer-legal-links a:hover {
+  color: #333;
+}
